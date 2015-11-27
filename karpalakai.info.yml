@@ -1,0 +1,29 @@
+name: Karpalakai
+type: theme
+description: 'This theme has been developed to learn the D8 theming.'
+core: 8.x
+engine: phptemplate
+
+# libraries
+libraries:
+  - karpalakai/global-styling
+
+# Regions
+regions:
+  header: 'Header'
+  help: 'Help'
+  highlighted: 'Highlighted'
+  featured: 'Featured'
+  content: 'Content'
+  sidebar_first: 'Sidebar'
+  footer: 'Footer'
+
+# Settings
+settings:
+  breadcrumb_delimiter: ' » '
+  social_block: '1'
+  social_block_title: 'Social Block'
+  facebook_url: 'https://www.facebook.com'
+  twitter_url: 'https://twitter.com'
+  gplus_url: 'https://plus.google.com'
+  pinterest_url: 'http://pinterest.com'
