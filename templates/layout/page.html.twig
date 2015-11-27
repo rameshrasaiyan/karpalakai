@@ -70,12 +70,12 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
     <div class="bs-docs-section">
       <div class="row">
-        <div class="layout-content col-lg-6">
+        <div class="layout-content col-lg-8">
           {{ page.content }}
         </div>{# /.layout-content #}
 
         {% if page.sidebar_first %}
-          <aside class="layout-sidebar-first col-lg-4 col-lg-offset-1" role="complementary">
+          <aside class="layout-sidebar-first col-lg-2 col-lg-offset-1" role="complementary">
             {{ page.sidebar_first }}
           </aside>
         {% endif %}
@@ -86,7 +86,9 @@
 
   {% if page.footer %}
     <footer role="contentinfo">
-      {{ page.footer }}
+      <div class="container">
+        {{ page.footer }}
+      </div>
     </footer>
   {% endif %}
 

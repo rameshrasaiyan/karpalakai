@@ -8,3 +8,5 @@ global-styling:
 
   js:
     js/script.js: {}
+  dependencies:
+    - core/jquery
